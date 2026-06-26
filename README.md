@@ -1,5 +1,3 @@
-# sensei.pathflow.org
-
 構造面
 
 head / header / main / footer / sticky の4ブロック構成 ✅
