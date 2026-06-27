@@ -708,22 +708,48 @@ footer{
       <!-- UIスクショ -->
       <div style="margin-bottom:3rem">
         <p class="label" style="margin-bottom:1rem">DEMO INTERFACE</p>
-        <div style="display:grid;grid-template-columns:1fr 1fr 1fr;gap:10px">
-          <div>
-            <img src="./images/demo-step1.png" alt="STEP1 メールアドレス入力画面"
-              style="width:100%;border-radius:6px;border:1px solid var(--paper-3)">
-            <p style="font-size:11px;color:var(--ink-3);text-align:center;margin-top:6px">STEP 01　メール入力</p>
+        <div style="display:grid;grid-template-columns:1fr 1fr;gap:12px;align-items:stretch">
+
+          <!-- 左カラム：STEP1・STEP3 -->
+          <div style="display:flex;flex-direction:column;gap:12px">
+            <div>
+              <div style="
+                width:100%;overflow:hidden;border-radius:6px;
+                border:1px solid var(--paper-3);
+                background:var(--paper);
+              ">
+                <img src="./images/demo-step1.png" alt="STEP1 メールアドレス入力画面"
+                  style="width:100%;height:220px;object-fit:cover;object-position:top;display:block">
+              </div>
+              <p style="font-size:11px;color:var(--ink-3);text-align:center;margin-top:6px;letter-spacing:.05em">STEP 01　メール入力</p>
+            </div>
+            <div>
+              <div style="
+                width:100%;overflow:hidden;border-radius:6px;
+                border:1px solid var(--paper-3);
+                background:var(--paper);
+              ">
+                <img src="./images/demo-step3.png" alt="STEP3 声色選択画面"
+                  style="width:100%;height:220px;object-fit:cover;object-position:top;display:block">
+              </div>
+              <p style="font-size:11px;color:var(--ink-3);text-align:center;margin-top:6px;letter-spacing:.05em">STEP 03　声色の選択</p>
+            </div>
           </div>
+
+          <!-- 右カラム：結果画面（縦長） -->
           <div>
-            <img src="./images/demo-step3.png" alt="STEP3 声色選択画面"
-              style="width:100%;border-radius:6px;border:1px solid var(--paper-3)">
-            <p style="font-size:11px;color:var(--ink-3);text-align:center;margin-top:6px">STEP 03　声色の選択</p>
+            <div style="
+              width:100%;overflow:hidden;border-radius:6px;
+              border:1px solid var(--paper-3);
+              background:var(--paper);
+              height:452px;
+            ">
+              <img src="./images/demo-result.png" alt="翻訳完了画面"
+                style="width:100%;height:100%;object-fit:cover;object-position:top;display:block">
+            </div>
+            <p style="font-size:11px;color:var(--ink-3);text-align:center;margin-top:6px;letter-spacing:.05em">翻訳完了画面</p>
           </div>
-          <div>
-            <img src="./images/demo-result.png" alt="翻訳完了画面"
-              style="width:100%;border-radius:6px;border:1px solid var(--paper-3)">
-            <p style="font-size:11px;color:var(--ink-3);text-align:center;margin-top:6px">翻訳完了</p>
-          </div>
+
         </div>
       </div>
 
